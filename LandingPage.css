@@ -1,0 +1,289 @@
+body {
+	font-family: 'Libre-Franklin', cursive;
+	margin: 0;
+	padding: 0;
+	font-weight: 100;
+	box-sizing: border-box;
+}
+header {
+	box-shadow: 0 4px 100px rgba(0, 0, 0, 0.0);
+	background-color: #fff;
+	padding : 0px 100px;
+	height : 50px;
+    border-bottom: 4px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h1 {
+	font-family: 'Licorice', cursive;
+	font-size: 36px;
+	font-weight: 400;
+	font-style: normal;
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+	text-decoration: none;
+}
+h1:hover {
+	transform: scale(0.85);
+}
+header .search-bar {
+    position: relative;
+    width: 355px;
+}
+.search-bar .search-icon {
+    position: absolute;
+    right: 14px;
+    top: 49%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #007bff;
+}
+.search-bar .slash-icon {
+    position: absolute;
+    right: 35px;
+    top: 44%;
+	transform: translateY(-50%);
+    font-size: 20px;
+    color: #007bff;
+}
+header input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 350px;
+}
+header .icons {
+    display: flex;
+    align-items: left;
+}
+header .icons a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+.icons .cart-icon {
+	width:25px;
+	color:2893CF;
+	margin-bottom:2px;
+}
+.icons .paper-icon {
+	margin-left: 15px;
+    width:22px;
+}
+.icons .heart-icon {
+	margin-left: 15px;
+    width:22px;
+	margin-top: 4px;
+	color:red;
+}
+.icons .slash {
+	font-size: 25px;
+	color:2893CF;
+	margin-top: 3px;
+}
+.icons .slashtwo {
+	font-size: 30px;
+	color:2893CF;
+}
+.icons .signin {
+	font-family: 'Libre-Franklin', cursive;
+	font-style: normal;
+	font-weight: 100;
+    font-size: 18px;
+	margin-top: 8px;
+	margin-right: 14px;
+	color:2893CF;
+}
+.icons .signin:hover {
+	transform: scale(0.85);
+}
+.icons .cart-icon:hover {
+	transform: scale(0.85);
+}
+.icons .paper-icon:hover {
+	transform: scale(0.85);
+}
+.icons .heart-icon:hover {
+	transform: scale(0.85);
+}
+.container {
+	padding: 90px;
+	background-color: #f8f8f8		
+}
+.section {
+	box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
+	justify-content: center;
+	background-color: #fff;
+	width: 100%;
+	height: 310px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+}
+.section h2 {
+	font-family: 'Licorice', cursive;
+	font-style: normal;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.section .items {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	overflow-x: auto;
+}
+.section .items a{
+	text-decoration: none;
+    color: inherit;
+    display: block;         
+}
+.section .item:hover {
+    transform: scale(0.95);
+}
+.section2 {
+	box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
+	justify-content: center;
+	background-color: #fff;
+	width: 100%;
+	height: 254px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+}
+.section2 h2 {
+	font-family: 'Licorice', cursive;
+	font-style: normal;
+	font-size: 200px;
+	margin-bottom: 20px;
+}
+.section2 .items2 {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	overflow-x: auto;
+}
+.section2 .items2 a{
+	text-decoration: none;
+    color: inherit;
+    display: block;         
+}
+.item {
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	border-radius: 9px;
+	padding: 10px;
+	text-align: center;
+	flex: 0 0 150px;
+}
+.item img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+.item .status {
+	display: inline-block;
+	padding: 2px 6px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.item .status.ready {
+	background-color: #28a745;
+	color: #fff;
+}
+		
+.item .status.out {
+	background-color: #dc3545;
+	color: #fff;
+}
+.item .title {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.item .price {
+	font-size: 12px;
+	color: #777;
+}
+h2 {
+	font-family: 'Libre-Franklin', cursive;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 20px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+footer {
+	background-color: #fff;
+	padding: 40px;
+	border-top: 1px solid #ddd;
+}
+
+footer .links {
+	display: flex;
+	justify-content: left;
+	margin-bottom: 10px;
+}
+footer .links div {
+	text-align: left;
+	padding-right:10px;		
+}
+footer .links a {
+	display: block;
+	color: #333;
+	text-decoration: none;
+	font-size: 12px;
+	margin: 0px 0;
+}
+.footer hr {
+	border: 0;
+	height: 1px;
+	background: #ccc;
+	margin: 20px 0;
+}
+.footer .bottom-text {
+	display: flex;
+	font-size: 12px;
+	color: #777;
+	justify-content: space-between;
+	flex: 1;
+}
+.brandam{
+	width: 150px;
+	padding-left:5px;
+	padding-top:5px;
+	color: #777;
+	font-family: 'Libre-Franklin', cursive;
+	font-style: reguler;
+	font-weight: 1;
+	font-size: 18px;
+}
+.aboutkiri{
+	font-family: 'Libre-Franklin', cursive;
+	font-style: normal;
+	font-size: 12px;
+	color:#4d4d4d;
+	text-align:right;
+	
+}
+h4{
+	font-family: 'Libre-Franklin', cursive;
+	font-weight:100;
+	font-style: normal;
+	color:000000;
+	font-size:16px;
+}
+a{
+	font-family: 'Libre-Franklin', cursive;
+	font-weight:100;
+	font-style: normal;
+	color:#4d4d4d;
+}
+.aboutkanan{
+	font-family: 'Libre-Franklin', cursive;
+	font-style: normal;
+	font-size: 12px;
+	color:#4d4d4d;
+	text-align: right;
+	flex : 1;
+}
